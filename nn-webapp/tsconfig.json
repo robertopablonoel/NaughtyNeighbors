@@ -1,5 +1,5 @@
 {
-  "extends": "../../tsconfig.base.json",
+  "extends": "../tsconfig.base.json",
   "compilerOptions": {
     "target": "es5",
     "lib": [
@@ -22,7 +22,7 @@
   ],
   "references": [
     {
-      "path": "../nouns-contracts/tsconfig.build.json"
+      "path": "../nn-contracts/tsconfig.build.json"
     }
   ]
 }
